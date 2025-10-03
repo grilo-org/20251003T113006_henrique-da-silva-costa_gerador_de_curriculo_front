@@ -1,0 +1,45 @@
+.labels {
+  text-transform: capitalize;
+}
+
+.erro {
+  color: red;
+}
+
+.sucesso {
+  color: green;
+}
+
+.loading {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formularioContainer {
+  height: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  left: 0;
+  right: 0;
+}
+
+@media screen and (min-width: 760px) {
+  .formularioContainer {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .fonteBotao12 {
+    font-size: 12px;
+  }
+
+  .fonteUsuarioNome {
+    font-size: 12px;
+  }
+}
